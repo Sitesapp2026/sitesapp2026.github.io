@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Sites</title>
+<meta name="description" content="What Sites records, why, who can see it, and your rights.">
+<meta name="theme-color" content="#1F3A5F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="../">Sites</a>
+    <nav><a href="../terms/">Terms</a><a href="./" aria-current="page">Privacy</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: November 18, 2026</p>
+
+<p class="lead">Sites records working hours and the phone's location only at check-in, break and check-out, and notes the time you leave or return to the site while checked in. We never track you continuously, never record where you go, never sell data, and host everything in the EU.</p>
+
+<h2>1. Who we are and our role</h2>
+<p>Sites is operated by <span class="todo">[your full name]</span>, Denmark. Privacy contact: <a href="mailto:sitesapp1708@gmail.com">sitesapp1708@gmail.com</a>.</p>
+<p>We have two roles, depending on whose data it is:</p>
+<ul>
+  <li><strong>Your employer is the controller for your work records.</strong> If you use Sites because your employer invited you, your employer decides what is recorded and why. We process that data on their behalf as a <strong>processor</strong>, under a data processing agreement. Questions about how your employer uses your records should go to them first; we will help them answer.</li>
+  <li><strong>We are the controller for account and service data.</strong> This covers the business owner's account, billing, support requests, security logs and anonymous usage statistics.</li>
+</ul>
+
+<h2>2. What we collect and why</h2>
+<div class="table">
+<table>
+  <thead><tr><th>Data</th><th>Whose</th><th>Purpose</th><th>Legal basis</th><th>Kept for</th></tr></thead>
+  <tbody>
+    <tr><td>Name, work email, phone (optional), role</td><td>Owners and employees</td><td>Sign-in, showing who is who</td><td>Contract (owner); employer's legal obligation / legitimate interest (employee)</td><td>While the account is active</td></tr>
+    <tr><td>Check-in, break and check-out times</td><td>Employees</td><td>Recording working time</td><td>Employer's legal obligation to record working time (in the EU)</td><td>As the employer's local law requires (Denmark: 5 years), then deleted</td></tr>
+    <tr><td>GPS position and accuracy at those moments; times of leaving and returning to the site while checked in (no position)</td><td>Employees</td><td>Confirming check-in happened at the work site</td><td>Employer's legitimate interest in reliable records</td><td>Same as time records</td></tr>
+    <tr><td>Notes on a work day</td><td>Employees</td><td>Explaining a deviation to the employer</td><td>Employer's legitimate interest</td><td>Same as time records</td></tr>
+    <tr><td>Corrections and who made them (audit log)</td><td>Owners and employees</td><td>Showing every change to a record</td><td>Employer's legal obligation / legitimate interest</td><td>Same as time records</td></tr>
+    <tr><td>Company name, country, reg. no., work sites and addresses</td><td>Owner</td><td>Running the company account</td><td>Contract</td><td>While the account is active, then 90 days</td></tr>
+    <tr><td>Billing details (handled by Stripe; we never see full card numbers)</td><td>Owner</td><td>Payment and invoices</td><td>Contract; bookkeeping law</td><td>5 years (Danish Bookkeeping Act)</td></tr>
+    <tr><td>Support emails</td><td>Anyone who contacts us</td><td>Answering you</td><td>Legitimate interest</td><td>2 years after the case is closed</td></tr>
+    <tr><td>Device type, app version, crash reports, security logs</td><td>All users</td><td>Keeping Sites working and secure</td><td>Legitimate interest</td><td>Up to 12 months</td></tr>
+  </tbody>
+</table>
+</div>
+<p>We do not collect special categories of data (such as health), and we ask users not to put sensitive personal details in notes. We do not use your data for advertising or sell it to anyone.</p>
+
+<h2>3. How Sites uses your location</h2>
+<p>Sites reads your phone's location once, at the moment you tap a button. While you are checked in, it also notes when you leave and return to the site. It never tracks your route.</p>
+<ol>
+  <li>You tap <strong>Check in</strong>, <strong>Start break</strong>, <strong>End break</strong> or <strong>Check out</strong>.</li>
+  <li>The app asks the phone for its current position and accuracy.</li>
+  <li>Our server checks whether you are inside the work site's radius (for example 50 m).</li>
+  <li>The time, position and accuracy are saved with that event. Nothing else is saved.</li>
+</ol>
+<p>The owner sees whether a check-in was confirmed at the site and, if they open the record, the saved position. They cannot see where you are at any other time.</p>
+<p>You control location access in your phone's settings. Sites asks for "While using the app" access only. If you turn it off, check-in by GPS will not work; ask your employer how to record time manually.</p>
+<p><strong>Leaving the site.</strong> While you are checked in, your phone (not our server) watches a zone of at least 150 m around the site. If you leave it for more than 5 minutes, Sites saves only the time you left and the time you came back. No position, route or destination is sent or stored. You can add a reason (materials run, other site, break, ended day). Leaving never checks you out or stops your time. This needs "Always" location access, which you can refuse or turn off at any time; check-in and check-out still work without it.</p>
+
+<h2>4. Who we share data with</h2>
+<p>Within a company, an employee's records are visible to that company's owner. Employees see only their own records. We share data with no one else, except the service providers below, authorities when the law requires it, or a buyer if the business is ever sold (who must keep this policy).</p>
+<div class="table">
+<table>
+  <thead><tr><th>Provider</th><th>What they do</th><th>Where</th><th>Safeguard</th></tr></thead>
+  <tbody>
+    <tr><td>Supabase</td><td>Database, sign-in and file hosting</td><td>EU (Frankfurt)</td><td>Data processing agreement</td></tr>
+    <tr><td>Stripe</td><td>Subscription payments (owners only)</td><td>EU / US</td><td>DPA; EU-US Data Privacy Framework / standard contractual clauses</td></tr>
+    <tr><td>Resend</td><td>Sending sign-in codes and service emails</td><td>USA, with EU standard contractual clauses</td><td>Data processing agreement</td></tr>
+    <tr><td>Sentry</td><td>Crash reports from the app (no names, emails or locations)</td><td>EU (Frankfurt)</td><td>Data processing agreement</td></tr>
+    <tr><td>Apple / Google</td><td>Maps shown in the app; push notifications</td><td>Global</td><td>Their own terms; no time records are shared</td></tr>
+  </tbody>
+</table>
+</div>
+<p>When data leaves the EU/EEA, we rely on an adequacy decision or the EU standard contractual clauses.</p>
+<p><strong>Security.</strong> Data is encrypted in transit, access is limited by role (an employee can never read a colleague's records), every correction is logged, and only the people who need it at Sites can access production data.</p>
+
+<h2>5. Your rights</h2>
+<p>Under the GDPR you can ask to see the data held about you, get a copy, correct it, have it deleted or restricted, object to processing based on legitimate interest, and move it to another service.</p>
+<ul>
+  <li><strong>Employees:</strong> you can see all your own hours, breaks and notes in the app at any time. For other requests, contact your employer; if you contact us, we will pass the request to them and help them answer. Note that your employer may be required by law to keep time records even if you ask for deletion.</li>
+  <li><strong>Owners and anyone else:</strong> email <a href="mailto:sitesapp1708@gmail.com">sitesapp1708@gmail.com</a>. We answer within one month.</li>
+</ul>
+<p>You can also complain to a data protection authority. In Denmark that is Datatilsynet (<a href="https://www.datatilsynet.dk">datatilsynet.dk</a>); elsewhere, the authority where you live or work.</p>
+
+<h2>6. Age</h2>
+<p>Sites is a tool for businesses and is not meant for anyone under 15. We do not knowingly collect data about children.</p>
+
+<h2>7. Changes to this policy</h2>
+<p>We will post changes here and, for significant changes, notify owners by email and all users in the app before they take effect.</p>
+
+<h2>8. Contact</h2>
+<p>Sites, operated by <span class="todo">[your full name]</span> · <a href="mailto:sitesapp1708@gmail.com">sitesapp1708@gmail.com</a></p>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Sites</span>
+    <a href="../terms/">Terms of Service</a>
+    <a href="./">Privacy Policy</a>
+  </div>
+</footer>
+</body>
+</html>
